@@ -1,5 +1,6 @@
 package com.mcopur.ecommerce.order;
 
+import com.mcopur.ecommerce.orderline.OrderLine;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;

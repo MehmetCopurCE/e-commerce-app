@@ -1,5 +1,6 @@
-package com.mcopur.ecommerce.order;
+package com.mcopur.ecommerce.orderline;
 
+import com.mcopur.ecommerce.order.Order;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -14,7 +15,6 @@ public class OrderLine {
     @Id
     @GeneratedValue
     private Integer id;
-
     @ManyToOne
     @JoinColumn(name = "order_id")
     private Order order;
