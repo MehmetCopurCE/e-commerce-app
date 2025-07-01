@@ -52,7 +52,7 @@ public class OrderService {
             );
         }
 
-        // todo start payment process
+        // start payment process
         var paymentRequest = new PaymentRequest(
                 request.amount(),
                 request.paymentMethod(),
