@@ -21,5 +21,7 @@ public class OrderProducer {
                 .withPayload(orderConfirmation)
                 .setHeader(KafkaHeaders.TOPIC, "order-topic")
                 .build();
+
+        kafkaTemplate.send(message);
     }
 }

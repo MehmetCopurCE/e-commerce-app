@@ -46,7 +46,7 @@ public class EmailService {
                         MimeMessageHelper.MULTIPART_MODE_MIXED_RELATED,
                         UTF_8.name()
                 );
-        messageHelper.setFrom("mhmtcpr120@gmail.com");
+        messageHelper.setFrom("mehmetcopurx@gmail.com");
 
         final String template = PAYMENT_CONFIRMATION.getTemplate();
 
@@ -86,7 +86,7 @@ public class EmailService {
                         MimeMessageHelper.MULTIPART_MODE_MIXED_RELATED,
                         UTF_8.name()
                 );
-        messageHelper.setFrom("mhmtcpr120@gmail.com");
+        messageHelper.setFrom("mehmetcopurx@gmail.com");
 
         final String template = ORDER_CONFIRMATION.getTemplate();
 

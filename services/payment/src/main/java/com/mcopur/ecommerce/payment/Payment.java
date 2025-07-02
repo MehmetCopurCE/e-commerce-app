@@ -16,6 +16,7 @@ import static jakarta.persistence.EnumType.STRING;
 @Builder
 @Getter
 @Setter
+@Entity
 @EntityListeners(AuditingEntityListener.class)
 @Table(name = "payment")
 public class Payment {
